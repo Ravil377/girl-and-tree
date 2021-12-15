@@ -2672,13 +2672,19 @@ template {
 .girl {
     margin-top: auto;
     z-index: 1;
-    position: absolute;
+    
     width: 100%;
     -ms-transform: translateX(40px);
         transform: translateX(40px);
     object-fit: cover;
     height: 72vh;
     bottom: -2%;
+}
+
+@media (min-width: 500px) {
+    .girl {
+        position: absolute;
+    }
 }
 .girl__title {
     color: white;
