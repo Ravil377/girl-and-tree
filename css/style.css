@@ -2672,7 +2672,7 @@ template {
 .girl {
     margin-top: auto;
     z-index: 1;
-    position: absolute;
+    
     width: 100%;
     -ms-transform: translateX(40px);
         transform: translateX(40px);
@@ -2738,6 +2738,7 @@ template {
         background-position: 0% 50%;
     }
     .girl {
+        position: absolute;
         z-index: 1;
         position: unset;
         height: 88vh;
